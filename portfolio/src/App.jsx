@@ -917,7 +917,7 @@ export default function Portfolio() {
                                     {[
                                         {
                                             role: 'Ethical Hacking Intern',
-           
+
                                             company: 'CDAC Noida (Cyber Gyan Project)',
                                             period: '2025 (42 Days)',
                                             desc: 'Conducted hands-on penetration testing and security auditing to identify and mitigate real-world system vulnerabilities.',
@@ -969,7 +969,7 @@ export default function Portfolio() {
                                     <a href="mailto:deepprakash724@gmail.com" className="flex items-center gap-2 sm:gap-3 text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold hover:text-gray-600 transition-colors group break-all sm:break-normal">deepprakash724@gmail.com <ArrowUpRight className="opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" /></a>
                                     <div className="flex gap-3 sm:gap-6 mt-3 sm:mt-4 flex-wrap items-center">
                                         {profileLink.map((social) => <a onClick={() => navigate(social.url)} key={social.name} href="#" className="text-xs sm:text-sm font-bold uppercase tracking-widest border-b border-black pb-1 hover:text-gray-500 hover:border-gray-500 transition-all cursor-pointer">{social.name}</a>)}
-                                        <a href="https://drive.google.com/file/d/1_mHe7CCzD31FELievmN965OVJsMIgw9o/view" target="_blank" rel="noopener noreferrer" className="text-xs sm:text-sm font-bold uppercase tracking-widest bg-black text-white px-3 sm:px-4 py-1 sm:py-1.5 rounded-full hover:bg-gray-800 transition-all cursor-pointer flex items-center gap-1">📄 Resume</a>
+                                        <a href="https://drive.google.com/file/d/1g9sPqlKJNAMC0Z3n_JTnlEyDeVkl1J9b/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" className="text-xs sm:text-sm font-bold uppercase tracking-widest bg-black text-white px-3 sm:px-4 py-1 sm:py-1.5 rounded-full hover:bg-gray-800 transition-all cursor-pointer flex items-center gap-1">📄 Resume</a>
                                     </div>
                                 </div>
                                 <div className="mt-auto hidden md:block">
